@@ -1,0 +1,62 @@
+.wrapper {
+  font-family: monospace;
+}
+
+.btns {
+  max-width: 400px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: stretch;
+  position: fixed;
+  justify-content: stretch;
+}
+
+button { 
+  flex-grow: 1;
+  font-size: 48px;
+  width: 100px;
+  border: black solid 1px;
+  padding: 15px 0px;
+}
+
+.input-num {
+  background-color: black;
+  color: white;
+  width: 400px;
+  font-size: 48px;
+  text-align: right;
+  padding: 15px 0px;
+}
+
+.btn-zero {
+  width: 75%;
+}
+
+.btn-cancel {
+  width: 50%; 
+}
+
+.btn-divide {
+  background-color: #df974c;
+  color: white;
+}
+
+.btn-multiply {
+  background-color: #df974c;
+  color: white;
+}
+
+.btn-minus {
+  background-color: #df974c;
+  color: white;
+}
+
+.btn-plus {
+  background-color: #df974c;
+  color: white;
+}
+
+.btn-equal {
+  background-color: #df974c;
+  color: white;
+}
